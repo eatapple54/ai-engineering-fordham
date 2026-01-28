@@ -22,6 +22,7 @@ dependencies = [
     { name = "numpy", version = "2.2.6", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.11'" },
     { name = "numpy", version = "2.4.1", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.11'" },
     { name = "openai" },
+    { name = "pre-commit" },
     { name = "pydantic" },
     { name = "tenacity" },
 ]
@@ -37,6 +38,7 @@ requires-dist = [
     { name = "litellm", specifier = ">=1.81.1" },
     { name = "numpy", specifier = ">=2.2.6" },
     { name = "openai", specifier = ">=2.15.0" },
+    { name = "pre-commit", specifier = ">=4.5.1" },
     { name = "pydantic", specifier = ">=2.12.5" },
     { name = "tenacity", specifier = ">=9.1.2" },
 ]
